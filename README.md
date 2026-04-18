@@ -462,3 +462,27 @@ MIT License - 免费商用
 Made with ❤️ by [XiLi](https://github.com/XiLi)
 
 </div>
+
+---
+
+## 🔧 OpenClaw / Claude Code 使用
+
+本技能已集成到 OpenClaw 技能系统,可直接使用:
+
+`python
+# 在 OpenClaw 或 Claude Code 中使用
+from ai_workflow import run_workflow
+from chart_generator import ChartGenerator
+from data_parser import DataParser
+from database_ops import DatabaseOps
+from excel_parser import ExcelParser
+from feishu_sheets import FeishuSheets
+`
+
+或通过 skills 目录调用:
+
+`python
+import sys
+sys.path.insert(0, 'path/to/skills')
+`
+
